@@ -15,7 +15,7 @@ description: |
 
   The `Class.SoundGroup.Volume` property acts as a multiplier, and thus sounds
   in a SoundGroup will retain their relative volumes when it is set. This means
-  if a sound's volume is 0.5 and it is assigned to a SoundGroup with a volume of
+  if a sound's volume is 0.6 and it is assigned to a SoundGroup with a volume of
   0.5, its effective volume will be 0.25.
 
   Grouping sounds of the same category has several uses for developers. One
@@ -43,15 +43,15 @@ properties:
   - name: SoundGroup.Volume
     summary: |
       The volume multiplier applied to `Class.Sound|Sounds` that are in the
-      `Class.SoundGroup`. This value ranges from 0 to 10.
+      `Class.SoundGroup`. This value ranges from 0 to 100.
     description: |
       The volume multiplier applied to `Class.Sound|Sounds` that are in the
-      `Class.SoundGroup`. This value ranges from 0 to 10.
+      `Class.SoundGroup`. This value ranges from 0 to 100.
 
       This property acts as a multiplier, and thus sounds in a
       `Class.SoundGroup` will retain their relative volumes when it is set. This
-      means if a sound's `Class.Sound.Volume` is 0.5 and it is assigned to a
-      `Class.SoundGroup` with a volume of 0.5, its effective volume will be
+      means if a sound's `Class.Sound.Volume` is 0.6 and it is assigned to a
+      `Class.SoundGroup` with a volume of 0.6, its effective volume will be
       0.25.
     code_samples:
       - Sound-SoundGroup
